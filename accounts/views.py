@@ -9,3 +9,6 @@ def home(request):
 
     args = {'myname': name, 'numbers': numbers}
     return render(request, 'accounts/home.html', args)
+
+def kufa(request):
+    return HttpResponse("dekho katro undo hai")
